@@ -49,13 +49,13 @@ http://localhost:8080
 1. **Build the Docker Image**
 Run the following command in the root of your project directory:
 ```bash
-docker build -t Go-Calculator .
+docker build -t go-calculator .
 ```
 
 2. **Run the Docker Container**
 After the image is built, you can run the container using:
 ```bash
-docker run -p 8080:8080 Go-Calculator .
+docker run -p 8080:8080 go-calculator .
 ```
 
 3. **Access the Web Application**

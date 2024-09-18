@@ -8,7 +8,7 @@ This is a simple web-based calculator built with Golang using the `net/http` pac
 
 ## Prerequisites
 Before running the project, make sure you have the following installed:
-- [Go](https://golang.org/doc/install) (version 1.16+)
+- [Go](https://golang.org/doc/install) (version 1.20+)
 - A web browser
 
 ## Project Structure

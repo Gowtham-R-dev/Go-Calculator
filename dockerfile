@@ -2,8 +2,8 @@
 FROM golang:1.23.1-bullseye AS builder
 WORKDIR /app
 
-# Copy go.mod and go.sum files
-COPY go.mod go.sum ./
+# Copy go.mod files
+COPY go.mod ./
 
 # Download all dependencies
 RUN go mod download

@@ -14,8 +14,8 @@ Before running the project, make sure you have the following installed:
 ## Project Structure
 
 ```bash
--go-calci
- │
+-Go-Calculator
+ ├── dockerfile # Docker file
  ├── main.go # Main Go file for handling requests 
  ├── go.mod # Go module file 
  └── templates/ 

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-calculator-service
+spec:
+  type: NodePort  # For exposing the service on a port accessibla via localhost
+  selector:
+    app: go-calculator
+  ports:
+  - port: 8080 # Service port
+    targetPort: 8080 #The post where app listens inside the container
+    nodePort: 30007 # Port exposed on loaclhost(minikube)
+      

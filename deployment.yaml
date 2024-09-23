@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-calculator-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: go-calculator
+  template:
+    metadata:
+      labels:
+        app: go-calculator
+    spec:
+      containers:
+      - name: go-calculator
+        image: go-calculator:local
+        ports:
+        - containerPort: 8080

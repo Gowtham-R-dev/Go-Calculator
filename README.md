@@ -103,4 +103,4 @@ To access the deployed service, run the following command to retrieve the servic
 ```bash
 minikube service go-calculator-service
 ```
-This will open your default browser to the URL where the service is exposed (e.g., http://localhost:<node-port>).
+This will open your default browser to the URL where the service is exposed (e.g., http://localhost:node-port).

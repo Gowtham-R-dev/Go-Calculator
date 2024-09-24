@@ -9,5 +9,4 @@ spec:
   ports:
   - port: 8080 # Service port
     targetPort: 8080 #The post where app listens inside the container
-    nodePort: 30007 # Port exposed on loaclhost(minikube)
-      
+    nodePort: 30007 # Port exposed on locallhost
